@@ -14,7 +14,7 @@
 
 </head>  
 <body class="body">
-      <form class="formulario" action="../php/registrar.php" method="POST">
+      <form class="formulario" action="phpQuery/validarRegistro.php" method="POST">
          <h1>Registrate</h1>
          <div class="contenedor">
             <div class="input-contenedor">

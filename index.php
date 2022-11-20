@@ -103,7 +103,7 @@
 				<div class="container-browser">
 					<div class="browser">
 						<h2>Elige la sucursal más cercana</h2>
-						<input type="text" name="cp" placeholder="Ingresa tu codigo postal*" required>
+						<input type="text" name="cp" pattern="[0-9]{5}" placeholder="Ingresa tu codigo postal*" required>
 					</div>
 					<button><img src="images/boton.png"></button>
 				</div>
