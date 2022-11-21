@@ -1,0 +1,102 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(../img/pizzagif.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    border-style: solid;
+    border-color: #283488;
+    margin-top: 150px;
+    padding: 3px;
+
+    box-shadow: 7px 13px 37px #000;
+}
+
+h1{
+    text-align: center;
+    color: #283488;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="email"],
+select{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+textarea {
+    font-size: 20px;
+    width: 82%;
+    height: 150px;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #283488;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #F4980B;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #283488;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: #F4990F;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: #F4990F;
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+.opacidad {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+
+    background: #000;
+}

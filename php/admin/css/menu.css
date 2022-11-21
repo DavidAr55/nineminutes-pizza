@@ -1,0 +1,122 @@
+
+.fondo-azul {
+	background: #0A4D7E;
+}
+
+.menu-container-box {
+	position: relative;
+	top: 100px;
+	width: 100%;
+	height: auto;
+
+	background-image: url("../img/madera.png");
+	object-fit: cover;
+
+	padding: 50px;
+
+	display : flex;
+	flex-direction : row;
+	justify-content : space-around;
+	flex-flow : wrap;
+}
+
+.menu-box {
+	background: #fff;
+    border-style: solid;
+    border-color: #283488;
+    margin-top: 150px;
+    border-radius: 10px;
+    padding: 3px;
+
+    box-shadow: 7px 13px 37px #000;
+
+	width: 500px;
+	height: 650px;
+
+	margin: 40px;
+}
+
+h2 {
+	font-size: 45px;
+	color: #283488;
+}
+
+h4 {
+	font-size: 30px;
+	color: #283488;
+}
+
+p, button {
+	font-size: 20px;
+}
+
+.img-container {
+	margin: auto;
+	margin-top: 30px;
+
+	border-style: solid;
+    border-color: #283488;
+
+	width: 90%;
+	height: 250px;
+
+	/*background: #154;*/
+}
+
+.container-ingredientes {
+	width: 100%;
+	height: 150px;
+
+	background: green;
+
+	display : flex;
+	flex-direction : row;
+	justify-content : space-around;
+	flex-flow : wrap;
+}
+
+.img-container img {
+	padding: 0;
+	margin: 0;
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.menu-boton {
+	position: relative;
+	float: right;
+	margin-top: -50px;
+	width: 100px;
+	height: 40px;
+	/*background: #309;*/
+}
+
+.menu-boton button{
+	width: 100%;
+	height: 100%;
+}
+
+.centrar-tabla-ingredientes {
+	margin: auto;
+	margin-top: 5px;
+
+	width: 95%;
+	height: auto;
+
+	text-align: center;
+	font-size: 20px;
+}
+
+.centrar-tabla-ingredientes tbody tr td{
+	border-right: 2px dashed;
+	border-left: 2px dashed;
+	border-color: #283488;
+}
+
+.centrar-tabla-ingredientes tbody tr{
+	border-top: 2px dashed;
+	border-bottom: 2px dashed;
+	border-color: #283488;
+}

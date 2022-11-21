@@ -1,0 +1,44 @@
+.footer-box{
+	position: relative;
+	margin: auto;
+	top: 80px;
+	width: 100%;
+	height: auto;
+
+	background: #0E0E5E;
+
+	text-align: justify;
+	font-family: Arial;
+	color: white;
+	font-size: 18px;
+}
+
+.footer-box h3{
+	font-size: 25px;
+}
+
+.footer-info-box{
+	position: relative;
+	padding: 105px 0;
+	margin: auto;
+	top:0px;
+	width: 90%;
+	height: auto;
+	color: #FFF;
+	/*background: #F05;*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.footer-display-flex{
+	position: relative;
+	
+	margin: 20px;
+	width: 450px;
+	height: 200px;
+
+	/*background: #09F;*/
+}
